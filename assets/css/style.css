@@ -1,0 +1,21 @@
+.content {
+    background-color: darkslategray;
+    margin: 0 30% 0 30% ;
+    height: 350px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.conversor {
+    background-color:darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20% 10% 20%;
+}
+
+h1 ,h2 ,h3{
+    color: white;
+}
