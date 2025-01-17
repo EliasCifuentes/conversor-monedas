@@ -1,7 +1,7 @@
 .content {
     background-color: darkslategray;
     margin: 0 30% 0 30% ;
-    height: 350px;
+    height: 400px;
 }
 
 h1 {
@@ -13,9 +13,24 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 20% 10% 20%;
+    margin: 0 20% 20% 20%;
 }
 
 h1 ,h2 ,h3{
+    color: white;
+}
+
+.select {
+    width: 180px;
+    margin: 10px;
+}
+
+.buscar {
+    width: 180px;
+    color: white;
+    background-color: cadetblue
+}
+
+.respuesta {
     color: white;
 }

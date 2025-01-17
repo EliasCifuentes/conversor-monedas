@@ -43,12 +43,13 @@ const renderDom = (data) => {
 // Función principal
 const main = async () => {
     const api = await getApi("https://mindicador.cl/api");
-    if (api) {
-        renderDom(api);
-    }
+    renderDom(api)
+    
 };
 
 // Llamada al evento
 document.getElementById("buscar").addEventListener("click", main);
+
+
 
 
